@@ -1,0 +1,73 @@
+/* styles.css */
+body{
+    background-color:aquamarine;
+}
+.calculator {
+    max-width: 250px;
+    margin: 100px auto;
+    border: 2px solid #444;
+    border-radius: 10px;
+    background-color:aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+#ctr{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.display {
+    font-size: 24px;
+    background-color:#f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: #333;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+}
+
+button {
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:lightgrey;
+    color: #333;
+}
+
+button:hover {
+    background-color: #aaa;
+    color: #fff;
+}
+
+/* Different color for operator buttons */
+button.operator {
+    background-color: #ff5733; /* Orange */
+}
+
+button.operator:hover {
+    background-color: #cc471e; /* Darker orange */
+}
+
+/* Different color for clear button */
+button.clear {
+    background-color: #33ccff; /* Blue */
+}
+
+button.clear:hover {
+    background-color: #1f8bbd; /* Darker blue */
+}
+
+#moosa{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
